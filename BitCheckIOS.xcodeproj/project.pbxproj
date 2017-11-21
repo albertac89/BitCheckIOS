@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F8806B1FC416E300B5778B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8806A1FC416E300B5778B /* main.m */; };
+		50F8806E1FC416E300B5778B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8806D1FC416E300B5778B /* AppDelegate.m */; };
+		50F880711FC416E300B5778B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F880701FC416E300B5778B /* ViewController.m */; };
+		50F880741FC416E300B5778B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F880721FC416E300B5778B /* Main.storyboard */; };
+		50F880761FC416E300B5778B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F880751FC416E300B5778B /* Assets.xcassets */; };
+		50F880791FC416E300B5778B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F880771FC416E300B5778B /* LaunchScreen.storyboard */; };
+		50F880841FC416E400B5778B /* BitCheckIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F880831FC416E400B5778B /* BitCheckIOSTests.m */; };
+		50F8808F1FC416E400B5778B /* BitCheckIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8808E1FC416E400B5778B /* BitCheckIOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F880801FC416E400B5778B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F8805E1FC416E300B5778B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F880651FC416E300B5778B;
+			remoteInfo = BitCheckIOS;
+		};
+		50F8808B1FC416E400B5778B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F8805E1FC416E300B5778B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F880651FC416E300B5778B;
+			remoteInfo = BitCheckIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F880661FC416E300B5778B /* BitCheckIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCheckIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F8806A1FC416E300B5778B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F8806C1FC416E300B5778B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50F8806D1FC416E300B5778B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50F8806F1FC416E300B5778B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50F880701FC416E300B5778B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50F880731FC416E300B5778B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F880751FC416E300B5778B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F880781FC416E300B5778B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F8807A1FC416E300B5778B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F8807F1FC416E400B5778B /* BitCheckIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitCheckIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F880831FC416E400B5778B /* BitCheckIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitCheckIOSTests.m; sourceTree = "<group>"; };
+		50F880851FC416E400B5778B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F8808A1FC416E400B5778B /* BitCheckIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitCheckIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F8808E1FC416E400B5778B /* BitCheckIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitCheckIOSUITests.m; sourceTree = "<group>"; };
+		50F880901FC416E400B5778B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F880631FC416E300B5778B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F8807C1FC416E400B5778B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F880871FC416E400B5778B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F8805D1FC416E300B5778B = {
+			isa = PBXGroup;
+			children = (
+				50F880681FC416E300B5778B /* BitCheckIOS */,
+				50F880821FC416E400B5778B /* BitCheckIOSTests */,
+				50F8808D1FC416E400B5778B /* BitCheckIOSUITests */,
+				50F880671FC416E300B5778B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F880671FC416E300B5778B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F880661FC416E300B5778B /* BitCheckIOS.app */,
+				50F8807F1FC416E400B5778B /* BitCheckIOSTests.xctest */,
+				50F8808A1FC416E400B5778B /* BitCheckIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F880681FC416E300B5778B /* BitCheckIOS */ = {
+			isa = PBXGroup;
+			children = (
+				50F8806C1FC416E300B5778B /* AppDelegate.h */,
+				50F8806D1FC416E300B5778B /* AppDelegate.m */,
+				50F8806F1FC416E300B5778B /* ViewController.h */,
+				50F880701FC416E300B5778B /* ViewController.m */,
+				50F880721FC416E300B5778B /* Main.storyboard */,
+				50F880751FC416E300B5778B /* Assets.xcassets */,
+				50F880771FC416E300B5778B /* LaunchScreen.storyboard */,
+				50F8807A1FC416E300B5778B /* Info.plist */,
+				50F880691FC416E300B5778B /* Supporting Files */,
+			);
+			path = BitCheckIOS;
+			sourceTree = "<group>";
+		};
+		50F880691FC416E300B5778B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F8806A1FC416E300B5778B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F880821FC416E400B5778B /* BitCheckIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F880831FC416E400B5778B /* BitCheckIOSTests.m */,
+				50F880851FC416E400B5778B /* Info.plist */,
+			);
+			path = BitCheckIOSTests;
+			sourceTree = "<group>";
+		};
+		50F8808D1FC416E400B5778B /* BitCheckIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50F8808E1FC416E400B5778B /* BitCheckIOSUITests.m */,
+				50F880901FC416E400B5778B /* Info.plist */,
+			);
+			path = BitCheckIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F880651FC416E300B5778B /* BitCheckIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F880931FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOS" */;
+			buildPhases = (
+				50F880621FC416E300B5778B /* Sources */,
+				50F880631FC416E300B5778B /* Frameworks */,
+				50F880641FC416E300B5778B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitCheckIOS;
+			productName = BitCheckIOS;
+			productReference = 50F880661FC416E300B5778B /* BitCheckIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F8807E1FC416E400B5778B /* BitCheckIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F880961FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOSTests" */;
+			buildPhases = (
+				50F8807B1FC416E400B5778B /* Sources */,
+				50F8807C1FC416E400B5778B /* Frameworks */,
+				50F8807D1FC416E400B5778B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F880811FC416E400B5778B /* PBXTargetDependency */,
+			);
+			name = BitCheckIOSTests;
+			productName = BitCheckIOSTests;
+			productReference = 50F8807F1FC416E400B5778B /* BitCheckIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50F880891FC416E400B5778B /* BitCheckIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F880991FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOSUITests" */;
+			buildPhases = (
+				50F880861FC416E400B5778B /* Sources */,
+				50F880871FC416E400B5778B /* Frameworks */,
+				50F880881FC416E400B5778B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F8808C1FC416E400B5778B /* PBXTargetDependency */,
+			);
+			name = BitCheckIOSUITests;
+			productName = BitCheckIOSUITests;
+			productReference = 50F8808A1FC416E400B5778B /* BitCheckIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F8805E1FC416E300B5778B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Albert;
+				TargetAttributes = {
+					50F880651FC416E300B5778B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					50F8807E1FC416E400B5778B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 50F880651FC416E300B5778B;
+					};
+					50F880891FC416E400B5778B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 50F880651FC416E300B5778B;
+					};
+				};
+			};
+			buildConfigurationList = 50F880611FC416E300B5778B /* Build configuration list for PBXProject "BitCheckIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F8805D1FC416E300B5778B;
+			productRefGroup = 50F880671FC416E300B5778B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F880651FC416E300B5778B /* BitCheckIOS */,
+				50F8807E1FC416E400B5778B /* BitCheckIOSTests */,
+				50F880891FC416E400B5778B /* BitCheckIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F880641FC416E300B5778B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F880791FC416E300B5778B /* LaunchScreen.storyboard in Resources */,
+				50F880761FC416E300B5778B /* Assets.xcassets in Resources */,
+				50F880741FC416E300B5778B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F8807D1FC416E400B5778B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F880881FC416E400B5778B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F880621FC416E300B5778B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F880711FC416E300B5778B /* ViewController.m in Sources */,
+				50F8806E1FC416E300B5778B /* AppDelegate.m in Sources */,
+				50F8806B1FC416E300B5778B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F8807B1FC416E400B5778B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F880841FC416E400B5778B /* BitCheckIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F880861FC416E400B5778B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F8808F1FC416E400B5778B /* BitCheckIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F880811FC416E400B5778B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F880651FC416E300B5778B /* BitCheckIOS */;
+			targetProxy = 50F880801FC416E400B5778B /* PBXContainerItemProxy */;
+		};
+		50F8808C1FC416E400B5778B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F880651FC416E300B5778B /* BitCheckIOS */;
+			targetProxy = 50F8808B1FC416E400B5778B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F880721FC416E300B5778B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F880731FC416E300B5778B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F880771FC416E300B5778B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F880781FC416E300B5778B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F880911FC416E400B5778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50F880921FC416E400B5778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F880941FC416E400B5778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitCheckIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.BitCheckIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50F880951FC416E400B5778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitCheckIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.BitCheckIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50F880971FC416E400B5778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitCheckIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.BitCheckIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitCheckIOS.app/BitCheckIOS";
+			};
+			name = Debug;
+		};
+		50F880981FC416E400B5778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitCheckIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.BitCheckIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitCheckIOS.app/BitCheckIOS";
+			};
+			name = Release;
+		};
+		50F8809A1FC416E400B5778B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitCheckIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.BitCheckIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitCheckIOS;
+			};
+			name = Debug;
+		};
+		50F8809B1FC416E400B5778B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitCheckIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albert.BitCheckIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitCheckIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F880611FC416E300B5778B /* Build configuration list for PBXProject "BitCheckIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F880911FC416E400B5778B /* Debug */,
+				50F880921FC416E400B5778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F880931FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F880941FC416E400B5778B /* Debug */,
+				50F880951FC416E400B5778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50F880961FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F880971FC416E400B5778B /* Debug */,
+				50F880981FC416E400B5778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50F880991FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F8809A1FC416E400B5778B /* Debug */,
+				50F8809B1FC416E400B5778B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F8805E1FC416E300B5778B /* Project object */;
+}
