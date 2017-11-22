@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50F56CB41FC569BE00BD1ABC /* OrderBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F56CB31FC569BE00BD1ABC /* OrderBook.m */; };
+		50F56CBB1FC56F0E00BD1ABC /* OrderBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F56CB91FC56F0E00BD1ABC /* OrderBookCell.m */; };
+		50F56CBC1FC56F0E00BD1ABC /* OrderBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F56CBA1FC56F0E00BD1ABC /* OrderBookCell.xib */; };
+		50F6F6651FC428F600713C8F /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F6641FC428F600713C8F /* DataStore.m */; };
+		50F6F66B1FC4414900713C8F /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6F66A1FC4414900713C8F /* Ticker.m */; };
 		50F8806B1FC416E300B5778B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8806A1FC416E300B5778B /* main.m */; };
 		50F8806E1FC416E300B5778B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8806D1FC416E300B5778B /* AppDelegate.m */; };
 		50F880711FC416E300B5778B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F880701FC416E300B5778B /* ViewController.m */; };
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50F56CB21FC569BE00BD1ABC /* OrderBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderBook.h; sourceTree = "<group>"; };
+		50F56CB31FC569BE00BD1ABC /* OrderBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderBook.m; sourceTree = "<group>"; };
+		50F56CB81FC56F0E00BD1ABC /* OrderBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderBookCell.h; path = ../OrderBookCell.h; sourceTree = "<group>"; };
+		50F56CB91FC56F0E00BD1ABC /* OrderBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderBookCell.m; path = ../OrderBookCell.m; sourceTree = "<group>"; };
+		50F56CBA1FC56F0E00BD1ABC /* OrderBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderBookCell.xib; path = ../OrderBookCell.xib; sourceTree = "<group>"; };
+		50F6F6631FC428F600713C8F /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataStore.h; path = ../DataStore.h; sourceTree = "<group>"; };
+		50F6F6641FC428F600713C8F /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataStore.m; path = ../DataStore.m; sourceTree = "<group>"; };
+		50F6F6691FC4414900713C8F /* Ticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ticker.h; path = ../Ticker.h; sourceTree = "<group>"; };
+		50F6F66A1FC4414900713C8F /* Ticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ticker.m; path = ../Ticker.m; sourceTree = "<group>"; };
 		50F880661FC416E300B5778B /* BitCheckIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCheckIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F8806A1FC416E300B5778B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50F8806C1FC416E300B5778B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,11 +115,20 @@
 		50F880681FC416E300B5778B /* BitCheckIOS */ = {
 			isa = PBXGroup;
 			children = (
+				50F56CB81FC56F0E00BD1ABC /* OrderBookCell.h */,
+				50F56CB91FC56F0E00BD1ABC /* OrderBookCell.m */,
+				50F56CBA1FC56F0E00BD1ABC /* OrderBookCell.xib */,
+				50F6F6691FC4414900713C8F /* Ticker.h */,
+				50F6F66A1FC4414900713C8F /* Ticker.m */,
+				50F6F6631FC428F600713C8F /* DataStore.h */,
+				50F6F6641FC428F600713C8F /* DataStore.m */,
 				50F8806C1FC416E300B5778B /* AppDelegate.h */,
 				50F8806D1FC416E300B5778B /* AppDelegate.m */,
 				50F8806F1FC416E300B5778B /* ViewController.h */,
 				50F880701FC416E300B5778B /* ViewController.m */,
 				50F880721FC416E300B5778B /* Main.storyboard */,
+				50F56CB21FC569BE00BD1ABC /* OrderBook.h */,
+				50F56CB31FC569BE00BD1ABC /* OrderBook.m */,
 				50F880751FC416E300B5778B /* Assets.xcassets */,
 				50F880771FC416E300B5778B /* LaunchScreen.storyboard */,
 				50F8807A1FC416E300B5778B /* Info.plist */,
@@ -244,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F880791FC416E300B5778B /* LaunchScreen.storyboard in Resources */,
+				50F56CBC1FC56F0E00BD1ABC /* OrderBookCell.xib in Resources */,
 				50F880761FC416E300B5778B /* Assets.xcassets in Resources */,
 				50F880741FC416E300B5778B /* Main.storyboard in Resources */,
 			);
@@ -270,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F56CBB1FC56F0E00BD1ABC /* OrderBookCell.m in Sources */,
 				50F880711FC416E300B5778B /* ViewController.m in Sources */,
+				50F6F6651FC428F600713C8F /* DataStore.m in Sources */,
 				50F8806E1FC416E300B5778B /* AppDelegate.m in Sources */,
+				50F56CB41FC569BE00BD1ABC /* OrderBook.m in Sources */,
 				50F8806B1FC416E300B5778B /* main.m in Sources */,
+				50F6F66B1FC4414900713C8F /* Ticker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +524,7 @@
 				50F880951FC416E400B5778B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50F880961FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				50F880981FC416E400B5778B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50F880991FC416E400B5778B /* Build configuration list for PBXNativeTarget "BitCheckIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				50F8809B1FC416E400B5778B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
