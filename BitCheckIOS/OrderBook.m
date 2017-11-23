@@ -33,13 +33,18 @@
 }
 
 - (void)loadOrderBook {
-    
-    NSURL *url = [DataStore URLforOrderBook:@"btcusd"];
-    NSData *jsonResults = [NSData dataWithContentsOfURL:url];
-    self.orderBook = [NSJSONSerialization JSONObjectWithData:jsonResults options:0 error:NULL];
-    
-//    NSLog(@"%@",self.orderBook[@"asks"]);
-    
+    dispatch_queue_t orderbookQueue = dispatch_queue_create("orderbookQueue",NULL);
+    dispatch_async(orderbookQueue, ^{
+        NSURL *url = [DataStore URLforOrderBook:@"btcusd"];
+        NSData *jsonResults = [NSData dataWithContentsOfURL:url];
+        NSDictionary *resutl = [NSJSONSerialization JSONObjectWithData:jsonResults options:0 error:NULL];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.orderBook = resutl;
+            [self.tableView reloadData];
+            NSLog(@"%@",self.orderBook[@"asks"]);
+        });
+    });
 }
 
 - (void)didReceiveMemoryWarning {
@@ -78,6 +83,10 @@
     return cell;
 }
 
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    [self loadOrderBook];
+}
 
 /*
 // Override to support conditional editing of the table view.
